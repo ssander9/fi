@@ -1,0 +1,7 @@
+<div class='page'>
+  <h1>Hi <%= @user.name %>!</h1>
+  <br>
+
+  <p>Other Stuff</p>
+  <%= link_to 'Update Profile', edit_user_path(@user.id), class:'clickable' %><br>
+</div>
